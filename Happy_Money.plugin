@@ -1,0 +1,70 @@
+##肥皂&ZhiYi&Cenbomin&ZIYE大佬地羊毛脚本，打开解析器食用
+
+[Script]
+#番茄小说，签到界面或者签到详情 ---> *.snssdk.com
+http-request luckycat/novel/v1/task/sign_in/*, script-path=https://raw.githubusercontent.com/ZhiYi-N/Private-Script/master/Scripts/fqxs.js, tag=番茄小说
+
+#燃旅视频，看一个视频获取ck ---> ranlv.lvfacn.com
+http-request https://ranlv.lvfacn.com/api.php/Common/pvlog, script-path=https://raw.githubusercontent.com/ZhiYi-N/Private-Script/master/Scripts/ranlv.js, tag=燃旅视频
+
+#宝石星球，点收取矿石获取数据 ---> interface.baoshixingqiu.com
+http-request https://interface.baoshixingqiu.com/member/user/batch-diggle, script-path=https://raw.githubusercontent.com/age174/-/main/baosxq.js, tag=宝石星球
+
+#陌嗨短视频，进入家园，点击获取能量，观看一个广告，观看倒计时结束提示获取广告body成功 ---> api.hemayoudao.cn
+http-request ^https://api.hemayoudao.cn/admin-dotask/app/spirit/v1/finish-task, script-path=https://raw.githubusercontent.com/age174/-/main/mhdsp.js, tag=陌嗨短视频
+
+#芝嫲视频，点击夺宝获取body ---> api.sxsjyzm.com
+http-request ^https://api.sxsjyzm.com/api2/loot/index, script-path=https://raw.githubusercontent.com/age174/-/main/zmsp.js, tag=芝嫲视频
+
+#金钱豹，点击看视频，每个任务观看一次视频共获取五个视频body；进入转盘红包，转一次，获取转盘抽奖body；点击现金福利，点击签到，获取签到body；点击看广告，看完一组广告，获取广告body和headers ---> jqb.iphonezhuan.com
+http-request ^http://jqb.iphonezhuan.com/, script-path=https://raw.githubusercontent.com/age174/-/main/jqb.js, tag=金钱豹
+
+#蜗牛吧，首页点击一个红包领取获取数据 ---> api.snail2020.com
+http-request ^https://api.snail2020.com/api/hb/hb/, script-path=https://raw.githubusercontent.com/age174/-/main/wnb.js, tag=蜗牛吧
+
+#番茄看看，去番茄看看，点击阅读A任务，开始阅读，完成一次阅读即可获取数据 ---> m.*
+http-request ^http://m.*./reada/getTask, script-path=https://raw.githubusercontent.com/age174/-/main/fqkk.js, tag=番茄看看
+
+#阅友小说 ---> *.reader.yueyouxs.com
+#1,进入阅友小说，点击我的，获取用户信息成功
+#2,继续点击福利界面幸运大转盘，转一次获取抽奖数据
+#3,点击书架随便看一本书，等待一分钟左右获取时长数据，必须是要在阅读小说获取数据。
+#4,继续等待右上角金币转圈完毕，获取计时奖励数据
+#5,禁用阅友小说header，开启阅友小说body
+#6,点击福利界面，点击看视频奖励，观看一个视频获取数据
+#阅友小说header
+http-request http.*://.*.reader.yueyouxs.com/, script-path=https://raw.githubusercontent.com/age174/-/main/yyxs.js, tag=阅友小说header
+#阅友小说body
+http-request http.*://.*.reader.yueyouxs.com/, script-path=https://raw.githubusercontent.com/age174/-/main/yyxs.js, tag=阅友小说body
+
+#蛋咖，打开蛋咖我的获取账户信息数据；进入福利，看看赚，完成一次任务获取看看赚数据；点击蛋咖答题欢乐送，随便答一题获取答题数据；点击新闻，任意观看一篇新闻获取新闻数据；返回到福利界面，点击任意一本小说，观看一章，点击下一章，获取小说数据；返回福利界面，点击上方横幅进入签到页面获取签到奖励 ---> *.pceggs.com,www.ipadview.com
+http-request http://*.pceggs.com/IFS, script-path=https://raw.githubusercontent.com/age174/-/main/dka.js, tag=蛋咖
+#蛋咖小说--->
+http-request http://www.ipadview.com/rpads/score/award?, script-path=https://raw.githubusercontent.com/age174/-/main/dka.js, tag=蛋咖小说
+
+#嘀嗒星球，打开嘀嗒星球，点击天天分红，找到开宝箱得分红看完一个视频获得宝箱视频url；点击宝箱下面的看视频三十秒，看完视频获得广告视频url ---> ddstar.palmmob.com
+http-request https://ddstar.palmmob.com/ddstar_app/activity/ReceiveAdBonus?, script-path=https://raw.githubusercontent.com/age174/-/main/ddxq.js, tag=嘀嗒星球
+
+#悬赏喵喵，打开悬赏喵喵小程序，在首页获取数据 ---> vip.75787.com
+http-request https://vip.75787.com/app/index.php, script-path=https://raw.githubusercontent.com/age174/-/main/xsmm.js, tag=悬赏喵喵
+
+#幸运赚点，打开幸运赚点小程序点击任务界面，获得数据 ---> vip.75787.com
+http-request https://vip.75787.com/app/index.php, script-path=https://raw.githubusercontent.com/age174/-/main/xsmm.js, tag=幸运赚点
+
+#哈喽短视频，打开哈喽短视频小程序，点击我的或者任务获取数据 ---> vip.75787.com
+http-request https://vip.75787.com/app/index.php, script-path=https://raw.githubusercontent.com/age174/-/main/hldsp.js, tag=哈喽短视频
+
+#阳光果园，找到首页 任务 签到，获得阳光果园的数据 ---> sdk.121827.com
+http-request https://sdk.121827.com/index/guoyuan, script-path=https://raw.githubusercontent.com/age174/-/main/yggy.js, tag=阳光果园
+
+#云扫码，点击开始阅读，获得阅读数据，七八秒后返回，获得提交任务数据 ---> .*.top
+http-request ^http://.*./yunonline/v1/, script-path=https://raw.githubusercontent.com/age174/-/main/ysm.js, tag=云扫码
+
+#微客众智，点击任务大厅的阅读文章；点击开始阅读，等待六秒返回获取数据 ---> wx.tiantianaiyuedu.site
+http-request ^http://wx.tiantianaiyuedu.site/, script-path=https://raw.githubusercontent.com/age174/-/main/wkzz.js, tag=微客众智
+
+#春风转，打开春风转，点击文章赚钱，下拉刷新一下，获得阅读数据 ---> cf-api.douzhuanapi.cn
+http-request http://cf-api.douzhuanapi.cn:10002/api/, script-path=https://raw.githubusercontent.com/age174/-/main/cfz.js, tag=春风转
+
+[MITM]
+hostname = *.snssdk.com, ranlv.lvfacn.com, interface.baoshixingqiu.com, api.hemayoudao.cn, api.sxsjyzm.com, jqb.iphonezhuan.com, api.snail2020.com,  m.*, *.reader.yueyouxs.com, *.pceggs.com,www.ipadview.com, ddstar.palmmob.com, vip.75787.com, sdk.121827.com, .*.top, wx.tiantianaiyuedu.site, cf-api.douzhuanapi.cn

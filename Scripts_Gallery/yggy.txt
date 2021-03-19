@@ -1,0 +1,4 @@
+hostname= sdk.121827.com
+
+#阳光果园，找到首页 任务 签到，获得阳光果园的数据 ---> sdk.121827.com
+https://sdk.121827.com/index/guoyuan url script-request-body https://raw.githubusercontent.com/age174/-/main/yggy.js

@@ -1,0 +1,4 @@
+hostname= interface.baoshixingqiu.com
+
+#宝石星球，点收取矿石获取数据 ---> interface.baoshixingqiu.com
+https://interface.baoshixingqiu.com/member/user/batch-diggle url script-request-header https://raw.githubusercontent.com/age174/-/main/baosxq.js

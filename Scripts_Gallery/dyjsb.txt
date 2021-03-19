@@ -1,0 +1,6 @@
+hostname= *.amemv.com
+
+#抖音极速版，#签到获取signheader and signcookie；走路修改步数，提前之前需要重新获取ck；看一个视频弹出金币获取readheader and readkey ---> *.snssdk.com
+luckycat/aweme/v1/task/sign_in/detail? url script-request-header https://raw.githubusercontent.com/ZhiYi-N/Private-Script/master/Scripts/dyjsb.js
+luckycat/aweme/v1/task/done/read? url script-request-header https://raw.githubusercontent.com/ZhiYi-N/Private-Script/master/Scripts/dyjsb.js
+luckycat/aweme/v1/task/walk/step_submit? url script-request-header https://raw.githubusercontent.com/ZhiYi-N/Private-Script/master/Scripts/dyjsb.js

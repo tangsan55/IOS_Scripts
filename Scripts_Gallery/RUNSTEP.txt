@@ -1,0 +1,10 @@
+hostname= runstep.kujievip.com
+
+#食用方法
+#1.到[重写]-[引用],加入重写引用,根据以下提示获取cookie
+#2.[任务cookie]:打开App,即可获取
+#3.[提现cookie]:打开APP,点击下方[我的]，点击“账户余额”,会跳转到微信小程序提现页面,即可获取
+
+https://runstep.kujievip.com/runstep/advlist? url script-request-header https://raw.githubusercontent.com/CenBoMin/GithubSync/main/RUNSTEP/cookie.js
+
+https://runstep.kujievip.com/runstep/myself? url script-request-header https://raw.githubusercontent.com/CenBoMin/GithubSync/main/RUNSTEP/cookie.js

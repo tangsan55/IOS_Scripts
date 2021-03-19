@@ -1,0 +1,4 @@
+hostname= api.snail2020.com
+
+#蜗牛吧，首页点击一个红包领取获取数据 ---> api.snail2020.com
+^https://api.snail2020.com/api/hb/hb/ url script-request-body https://raw.githubusercontent.com/age174/-/main/wnb.js

@@ -1,0 +1,4 @@
+hostname= ddstar.palmmob.com
+
+#嘀嗒星球，打开嘀嗒星球，点击天天分红，找到开宝箱得分红看完一个视频获得宝箱视频url；点击宝箱下面的看视频三十秒，看完视频获得广告视频url ---> ddstar.palmmob.com
+https://ddstar.palmmob.com/ddstar_app/activity/ReceiveAdBonus? url script-request-header https://raw.githubusercontent.com/age174/-/main/ddxq.js

@@ -1,0 +1,4 @@
+hostname= api.hemayoudao.cn
+
+#陌嗨短视频，进入家园，点击获取能量，观看一个广告，观看倒计时结束提示获取广告body成功 ---> api.hemayoudao.cn
+^https://api.hemayoudao.cn/admin-dotask/app/spirit/v1/finish-task url script-request-header https://raw.githubusercontent.com/age174/-/main/mhdsp.js

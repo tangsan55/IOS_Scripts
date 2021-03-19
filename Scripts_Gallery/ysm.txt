@@ -1,0 +1,4 @@
+hostname= .*.top
+
+#云扫码，点击开始阅读，获得阅读数据，七八秒后返回，获得提交任务数据 ---> .*.top
+^http://.*./yunonline/v1/ url script-request-body https://raw.githubusercontent.com/age174/-/main/ysm.js

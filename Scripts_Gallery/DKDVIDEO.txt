@@ -1,0 +1,19 @@
+hostname= dkd-api.dysdk.com
+
+//食用方法
+#【一般任务】：进入APP,直接获取一般任务请求cookie(会一直弹出,不需要管他)
+#【转盘任务】：点击下面分类-我的,右下角有个转盘图标,点击进去转盘页面即可获取
+#【提现任务】：满足提现条件之后,提现1元即可获取提现请求
+#【视频body请求】：看视频到获取金币奖励,通知提示“添加视频body请求: 成功🎉,当前共有?个”,获取50个body请求左右
+
+//红包
+https://dkd-api.dysdk.com/video/red_countdown url script-request-body https://raw.githubusercontent.com/CenBoMin/GithubSync/main/DKDVIDEO/dkdvideo_cookie.js
+
+//视频
+https://dkd-api.dysdk.com/android_video/getaward url script-request-body https://raw.githubusercontent.com/CenBoMin/GithubSync/main/DKDVIDEO/dkdvideo_cookie.js
+
+//提现
+https://dkd-api.dysdk.com/money/withdraw_do? url script-request-body https://raw.githubusercontent.com/CenBoMin/GithubSync/main/DKDVIDEO/dkdvideo_cookie.js
+
+//转盘
+https://dkd-api.dysdk.com/lotto/index? url script-request-body https://raw.githubusercontent.com/CenBoMin/GithubSync/main/DKDVIDEO/dkdvideo_cookie.js

@@ -1,0 +1,27 @@
+hostname= render.shuqireader.com,ocean.shuqireader.com
+
+//极速版本,请添加重写获取cookie：https://raw.githubusercontent.com/CenBoMin/GithubSync/main/SHUQI/spcookie.conf
+#【极速-签到打卡】:登录App-点击下方中间【福利】-点击右侧图标【每日签到】- 立即签到,即可获取成功
+#【极速-阅读小说金币】:登录App-点击下方中间【福利】-点击左侧图标【赚金币】- 点击【30秒计时奖励】 - 找一本书点进去 -往右滑动看书 - 右上角会出现一个圈圈 -持续看书到获取金币,即可获取成功
+#【极速-看视频金币】:登录App-点击下方中间【福利】-点击左侧图标【赚金币】-点击【看视频领金币】- 看完一篇视频广告,即可获取成功
+#【极速-邀请书友】:登录App-点击下方中间【福利】-点击左侧图标【赚金币】-点击【邀请书友】,分享到微信朋友圈 - 分享完成返回app,即可获取成功
+
+//用户信息
+https://render.shuqireader.com/load/resource url script-request-body https://raw.githubusercontent.com/CenBoMin/GithubSync/main/SHUQI/spcookie.js
+
+//签到
+https://ocean.shuqireader.com/api/activity/xapi/signin/v5/signInAction url script-request-body https://raw.githubusercontent.com/CenBoMin/GithubSync/main/SHUQI/spcookie.js
+
+//阅读小说金币
+https://ocean.shuqireader.com/api/activity/v1/activity/pendant/lottery? url script-request-body https://raw.githubusercontent.com/CenBoMin/GithubSync/main/SHUQI/spcookie.js
+
+//一般页面看视频1
+https://ocean.shuqireader.com/api/ad/v1/api/prize/lottery url script-request-body https://raw.githubusercontent.com/CenBoMin/GithubSync/main/SHUQI/spcookie.js
+
+
+//视频信息
+https://ocean.shuqireader.com/api/ad/adserver/v1/api/getAdInfo? url script-request-header https://raw.githubusercontent.com/CenBoMin/GithubSync/main/SHUQI/spcookie.js
+
+
+//邀请书友
+https://ocean.shuqireader.com/api/activity/v1/task/reward url script-request-body https://raw.githubusercontent.com/CenBoMin/GithubSync/main/SHUQI/spcookie.js

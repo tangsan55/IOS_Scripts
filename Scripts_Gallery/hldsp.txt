@@ -1,0 +1,4 @@
+hostname= vip.75787.com
+
+#哈喽短视频，打开哈喽短视频小程序，点击我的或者任务获取数据 ---> vip.75787.com
+https://vip.75787.com/app/index.php url script-request-header https://raw.githubusercontent.com/age174/-/main/hldsp.js

@@ -1,0 +1,27 @@
+hostname = app.kxp.com, task.youth.cn
+
+#食用方法
+#【任务中心请求】：首页-右下角-点击现金红包-弹出任务中心
+#【视频奖励请求】：看视频到获取金币奖励,通知提示“添加🥦阅读请求，当前共有X个”,获取50个body请求左右
+#【时段奖励请求】：每天领金币任务,倒计时结束之后,点击"领取"
+#【分享请求】：首页任一个视频,点击视频右下角微信分享,跳转微信等待下,通知提示
+#备注：没有跳转,换别的视频试试...警告必须只获取2-3个即可,超出根据提示重新获取）
+#【分享奖励请求】：分享过后,回到app跳出红包,点击分享任务-领取
+#【助力奖励请求】：随便分享一个视频到微信（建议发到文件传输助手）,成功之后点击加载视频,观看并且等待通知弹出助力奖励通知
+#【提现奖励请求】：账户金额满5元,打开重写提现5元,弹出提现请求
+
+#葱花视频body获取
+https:\/\/app\.kxp\.com\/video\/v1\/video\/complete url script-request-body https://raw.githubusercontent.com/CenBoMin/GithubSync/main/CONGHUA/conghuabody.js
+
+https:\/\/app\.kxp\.com\/video\/v1\/video\/share url script-request-body https://raw.githubusercontent.com/CenBoMin/GithubSync/main/CONGHUA/conghuabody.js
+
+#葱花视频CK获取
+https:\/\/app\.kxp\.com\/task\/v1\/task_center\/data url script-request-body https://raw.githubusercontent.com/CenBoMin/GithubSync/main/CONGHUA/conghuabody.js
+
+https:\/\/app\.kxp\.com\/task\/v1\/task_center\/red url script-request-body https://raw.githubusercontent.com/CenBoMin/GithubSync/main/CONGHUA/conghuabody.js
+
+https:\/\/app\.kxp\.com\/task\/v1\/task_center\/share_video_reward url script-request-body https://raw.githubusercontent.com/CenBoMin/GithubSync/main/CONGHUA/conghuabody.js
+
+https://app.kxp.com/withdrawal/v2/wechat/exchange url script-request-body https://raw.githubusercontent.com/CenBoMin/GithubSync/main/CONGHUA/conghuabody.js
+
+https://task.youth.cn/count2/callback? url script-request-header https://raw.githubusercontent.com/CenBoMin/GithubSync/main/CONGHUA/conghuabody.js

@@ -1,0 +1,18 @@
+hostname= ocean.shuqireader.com
+
+//一般版本-福利转转转，极速版本-浏览书城，极速版本-签到页面看视频,请添加重写获取cookie：https://raw.githubusercontent.com/CenBoMin/GithubSync/main/SHUQI/lottery.conf
+#【一般-转盘机会】:登录App-点击下方中间【福利】-点击左侧图标【福利转转转】-点击下方【看视频抽奖】- 看完一篇视频广告,即可获取成功
+#【一般-转盘抽奖】:登录App-点击下方中间【福利】-点击左侧图标【福利转转转】-点击下方【金币抽奖】- 即可获取成功,如果，没有获取到，多试几次就可以
+#【极速-浏览书城15秒】:登录App-点击下方中间【福利】-点击左侧【赚金币】-点击【浏览书城】-右下角有计时-滑动或者停止会倒数计时,直到归零获取奖励,即可获取成功
+
+//转盘机会
+https://ocean.shuqireader.com/api/ad/v1/api/prize/lottery url script-request-body https://raw.githubusercontent.com/CenBoMin/GithubSync/main/SHUQI/lottery.js
+
+//转盘抽奖
+https://ocean.shuqireader.com/api/activity/activity/v1/lottery/draw? url script-request-body https://raw.githubusercontent.com/CenBoMin/GithubSync/main/SHUQI/lottery.js
+
+//转盘信息
+https://ocean.shuqireader.com/api/activity/activity/v1/lottery/info? url script-request-header https://raw.githubusercontent.com/CenBoMin/GithubSync/main/SHUQI/lottery.js
+
+//极速浏览书城
+https://ocean.shuqireader.com/api/activity/v1/task/reward? url script-request-body https://raw.githubusercontent.com/CenBoMin/GithubSync/main/SHUQI/lottery.js

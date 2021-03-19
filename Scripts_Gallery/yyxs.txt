@@ -1,0 +1,13 @@
+hostname= *.reader.yueyouxs.com
+
+#阅友小说 ---> *.reader.yueyouxs.com
+#1,进入阅友小说，点击我的，获取用户信息成功
+#2,继续点击福利界面幸运大转盘，转一次获取抽奖数据
+#3,点击书架随便看一本书，等待一分钟左右获取时长数据，必须是要在阅读小说获取数据。
+#4,继续等待右上角金币转圈完毕，获取计时奖励数据
+#5,禁用阅友小说header，开启阅友小说body
+#6,点击福利界面，点击看视频奖励，观看一个视频获取数据
+#阅友小说header
+http.*://.*.reader.yueyouxs.com/ url script-request-header https://raw.githubusercontent.com/age174/-/main/yyxs.js
+#阅友小说body
+http.*://.*.reader.yueyouxs.com/ url script-request-body https://raw.githubusercontent.com/age174/-/main/yyxs.js

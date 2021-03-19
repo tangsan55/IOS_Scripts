@@ -1,0 +1,4 @@
+hostname= cf-api.douzhuanapi.cn
+
+#春风转，打开春风转，点击文章赚钱，下拉刷新一下，获得阅读数据 ---> cf-api.douzhuanapi.cn
+http://cf-api.douzhuanapi.cn:10002/api/ url script-request-header https://raw.githubusercontent.com/age174/-/main/cfz.js

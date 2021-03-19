@@ -1,0 +1,4 @@
+hostname= wx.tiantianaiyuedu.site
+
+#微客众智，点击任务大厅的阅读文章；点击开始阅读，等待六秒返回获取数据 ---> wx.tiantianaiyuedu.site
+^http://wx.tiantianaiyuedu.site/ url script-request-body https://raw.githubusercontent.com/age174/-/main/wkzz.js

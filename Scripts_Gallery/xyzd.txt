@@ -1,0 +1,4 @@
+hostname= vip.75787.com
+
+#幸运赚点，打开幸运赚点小程序点击任务界面，获得数据 ---> vip.75787.com
+https://vip.75787.com/app/index.php url script-request-header https://raw.githubusercontent.com/age174/-/main/xsmm.js

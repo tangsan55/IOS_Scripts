@@ -1,0 +1,7 @@
+hostname= *.pceggs.com, www.ipadview.com
+
+#蛋咖，打开蛋咖我的获取账户信息数据；进入福利，看看赚，完成一次任务获取看看赚数据；点击蛋咖答题欢乐送，随便答一题获取答题数据；
+#点击新闻，任意观看一篇新闻获取新闻数据；返回到福利界面，点击任意一本小说，观看一章，点击下一章，获取小说数据；
+#返回福利界面，点击上方横幅进入签到页面获取签到奖励 ---> *.pceggs.com, www.ipadview.com
+http://*.pceggs.com/IFS url script-request-header https://raw.githubusercontent.com/age174/-/main/dka.js
+http://www.ipadview.com/rpads/score/award? url script-request-header https://raw.githubusercontent.com/age174/-/main/dka.js

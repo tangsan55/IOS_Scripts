@@ -1,0 +1,263 @@
+
+{
+    "name": "薅羊毛rewrite&task订阅",
+    "description": "TG频道地址:None",
+    "task": [
+        {
+            "config": "*/5 * * * * https://raw.githubusercontent.com/ZhiYi-N/Private-Script/master/Scripts/huoshan.js, tag=抖音火山版, img-url=https://gitee.com/ydj0602/hym/raw/img/DYHSB.PNG, enabled=false",
+        }, {
+            "config": "0 0 0 1 1 * https://raw.githubusercontent.com/tangsan55/IOS_Scripts/main/Scripts_Gallery/huoshan.txt, tag=抖音火山版CK, img-url=https://gitee.com/ydj0602/hym/raw/img/DYHSB.PNG, enabled=false",
+            "addons": "https://raw.githubusercontent.com/tangsan55/IOS_Scripts/main/Scripts_Gallery/huoshan.txt, tag=抖音火山版CK, update-interval=86400, opt-parser=false, enabled=false",
+        },
+        
+        {
+            "config": "*/3 * * * * https://raw.githubusercontent.com/ZhiYi-N/Private-Script/master/Scripts/hotsoon.js, tag=火山视频极速版, img-url=https://raw.githubusercontent.com/ZhiYi-N/Private-Script/master/img/huoshan.png, enabled=true",
+        }, {
+            "config": "0 0 0 1 1 * https://raw.githubusercontent.com/tangsan55/IOS_Scripts/main/Scripts_Gallery/hotsoon.txt, img-url=https://raw.githubusercontent.com/ZhiYi-N/Private-Script/master/img/huoshan.png, tag=火山视频极速版CK, enabled=false",
+            "addons": "https://raw.githubusercontent.com/tangsan55/IOS_Scripts/main/Scripts_Gallery/hotsoon.txt, tag=火山视频极速版CK, update-interval=86400, opt-parser=false, enabled=false",
+        },
+        
+        {
+            "config": "5,35 8-23 * * * https://raw.githubusercontent.com/ZhiYi-N/Private-Script/master/Scripts/jrtt.js, tag=今日头条极速版, img-url=https://raw.githubusercontent.com/ZhiYi-N/Private-Script/master/img/jrtt.png, enabled=false",
+        },{
+            "config": "0 0 0 1 1 * https://raw.githubusercontent.com/tangsan55/IOS_Scripts/main/Scripts_Gallery/jrtt.txt, img-url=https://raw.githubusercontent.com/ZhiYi-N/Private-Script/master/img/jrtt.png, tag=今日头条极速版CK, enabled=false",
+            "addons": "https://raw.githubusercontent.com/tangsan55/IOS_Scripts/main/Scripts_Gallery/jrtt.txt, tag=今日头条极速版CK, update-interval=86400, opt-parser=false, enabled=false",
+        }, 
+                
+        {
+            "config": "*/5 * * * * https://raw.githubusercontent.com/ZhiYi-N/Private-Script/master/Scripts/dyjsb.js, tag=抖音极速版, img-url=https://raw.githubusercontent.com/ZhiYi-N/Private-Script/master/img/dyjsb.png, enabled=true",
+        }, {
+            "config": "0 0 0 1 1 * https://raw.githubusercontent.com/tangsan55/IOS_Scripts/main/Scripts_Gallery/dyjsb.txt, img-url=https://raw.githubusercontent.com/ZhiYi-N/Private-Script/master/img/dyjsb.png, tag=抖音极速版CK, enabled=false",
+            "addons": "https://raw.githubusercontent.com/tangsan55/IOS_Scripts/main/Scripts_Gallery/dyjsb.txt, tag=抖音极速版CK, update-interval=86400, opt-parser=false, enabled=false",
+        },         
+        
+        {
+            "config": "*/30 * * * * https://raw.githubusercontent.com/ZhiYi-N/Private-Script/master/Scripts/fqxs.js, tag=番茄小说, enabled=true",
+        }, {
+            "config": "0 0 0 1 1 * https://raw.githubusercontent.com/tangsan55/IOS_Scripts/main/Scripts_Gallery/fqxs.txt, tag=番茄小说CK, enabled=false",
+            "addons": "https://raw.githubusercontent.com/tangsan55/IOS_Scripts/main/Scripts_Gallery/fqxs.txt, tag=番茄小说CK, update-interval=86400, opt-parser=false, enabled=false",
+        },
+
+        {
+            "config": "0 8-23/2 * * * https://raw.githubusercontent.com/adwktt/adwktt/master/BBB.js, tag=步步宝, enabled=true",
+        }, {
+            "config": "0 0 0 1 1 * https://raw.githubusercontent.com/tangsan55/IOS_Scripts/main/Scripts_Gallery/BBB.txt, tag=步步宝CK, enabled=false",
+            "addons": "https://raw.githubusercontent.com/tangsan55/IOS_Scripts/main/Scripts_Gallery/BBB.txt, tag=步步宝CK, update-interval=86400, opt-parser=false, enabled=false",
+        },
+        
+        {
+            "config": "*/30 0-17 * * * https://raw.githubusercontent.com/ZhiYi-N/Private-Script/master/Scripts/ranlv.js, tag=燃旅视频, img-url=https://raw.githubusercontent.com/Se7eNcBoT/MyXP/master/Icons/ZhiYi/ranlv_144x.png, enabled=true",
+        }, {
+            "config": "0 0 0 1 1 * https://raw.githubusercontent.com/tangsan55/IOS_Scripts/main/Scripts_Gallery/ranlv.txt, img-url=https://raw.githubusercontent.com/Se7eNcBoT/MyXP/master/Icons/ZhiYi/ranlv_144x.png, tag=燃旅视频CK, enabled=false",
+            "addons": "https://raw.githubusercontent.com/tangsan55/IOS_Scripts/main/Scripts_Gallery/ranlv.txt, tag=燃旅视频CK, update-interval=86400, opt-parser=false, enabled=false",
+        },
+        
+        {
+            "config": "*/30 * * * * https://raw.githubusercontent.com/ZhiYi-N/Private-Script/master/Scripts/kkd.js, tag=快看点, enabled=true",
+        }, {
+            "config": "0 0 0 1 1 * https://raw.githubusercontent.com/tangsan55/IOS_Scripts/main/Scripts_Gallery/kkd.txt, tag=快看点CK, enabled=false",
+            "addons": "https://raw.githubusercontent.com/tangsan55/IOS_Scripts/main/Scripts_Gallery/kkd.txt, tag=快看点CK, update-interval=86400, opt-parser=false, enabled=false",
+        },
+        
+        {
+            "config": "2 5 * * * * https://raw.githubusercontent.com/age174/-/main/baosxq.js, tag=宝石星球, enabled=false",
+        }, {
+            "config": "0 0 0 1 1 * https://raw.githubusercontent.com/tangsan55/IOS_Scripts/main/Scripts_Gallery/bsxq.txt, tag=宝石星球CK, enabled=false",
+            "addons": "https://raw.githubusercontent.com/tangsan55/IOS_Scripts/main/Scripts_Gallery/bsxq.txt, tag=宝石星球CK, update-interval=86400, opt-parser=false, enabled=false",
+        },
+        
+        {
+            "config": "15 10,20 * * * https://raw.githubusercontent.com/age174/-/main/mhdsp.js, tag=陌嗨短视频, img-url=https://raw.githubusercontent.com/usrnb/options/main/QuantumultX/icons/task/mhdsp.png, enabled=true",
+        }, {
+            "config": "0 0 0 1 1 * https://raw.githubusercontent.com/tangsan55/IOS_Scripts/main/Scripts_Gallery/mhdsp.txt, img-url=https://raw.githubusercontent.com/usrnb/options/main/QuantumultX/icons/task/mhdsp.png, tag=陌嗨短视频CK, enabled=false",
+            "addons": "https://raw.githubusercontent.com/tangsan55/IOS_Scripts/main/Scripts_Gallery/mhdsp.txt, tag=陌嗨短视频CK, update-interval=86400, opt-parser=false, enabled=false",
+        },
+        
+        {
+            "config": "* */1 * * * https://raw.githubusercontent.com/age174/-/main/zmsp.js, tag=芝嫲视频, img-url=https://s3.ax1x.com/2021/02/06/yYzeWn.png, enabled=true",
+        }, {
+            "config": "0 0 0 1 1 * https://raw.githubusercontent.com/tangsan55/IOS_Scripts/main/Scripts_Gallery/zmsp.txt, img-url=https://s3.ax1x.com/2021/02/06/yYzeWn.png, tag=芝嫲视频CK, enabled=false",
+            "addons": "https://raw.githubusercontent.com/tangsan55/IOS_Scripts/main/Scripts_Gallery/zmsp.txt, tag=芝嫲视频CK, update-interval=86400, opt-parser=false, enabled=false",
+        },
+        
+        {
+            "config": "15,45 10-22 * * * https://raw.githubusercontent.com/age174/-/main/wnb.js, tag=蜗牛吧, img-url=https://ftp.bmp.ovh/imgs/2021/02/221a7d94eaa0dddf.jpeg, enabled=true",
+        }, {
+            "config": "0 0 0 1 1 * https://raw.githubusercontent.com/tangsan55/IOS_Scripts/main/Scripts_Gallery/wnb.txt, img-url=https://ftp.bmp.ovh/imgs/2021/02/221a7d94eaa0dddf.jpeg, tag=蜗牛吧CK, enabled=false",
+            "addons": "https://raw.githubusercontent.com/tangsan55/IOS_Scripts/main/Scripts_Gallery/wnb.txt, tag=蜗牛吧CK, update-interval=86400, opt-parser=false, enabled=false",
+        },
+        
+        {
+            "config": "0 12,14,16,20,22 * * * https://raw.githubusercontent.com/age174/-/main/fqkk.js, tag=番茄看看, img-url=https://ftp.bmp.ovh/imgs/2021/02/f8306006536eb49c.jpeg, enabled=true",
+        }, {
+            "config": "0 0 0 1 1 * https://raw.githubusercontent.com/tangsan55/IOS_Scripts/main/Scripts_Gallery/fqkk.txt, img-url=https://ftp.bmp.ovh/imgs/2021/02/f8306006536eb49c.jpeg, tag=番茄看看CK, enabled=false",
+            "addons": "https://raw.githubusercontent.com/tangsan55/IOS_Scripts/main/Scripts_Gallery/fqkk.txt, tag=番茄看看CK, update-interval=86400, opt-parser=false, enabled=false",
+        },
+                
+        
+        {
+            "config": "15 0 * * * https://raw.githubusercontent.com/age174/-/main/jqb.js, tag=金钱豹, img-url=https://ftp.bmp.ovh/imgs/2021/02/9e6d449acb9b6889.png, enabled=true",
+        }, {
+            "config": "0 0 0 1 1 * https://raw.githubusercontent.com/tangsan55/IOS_Scripts/main/Scripts_Gallery/jqb.txt, img-url=https://ftp.bmp.ovh/imgs/2021/02/9e6d449acb9b6889.png, tag=金钱豹CK, enabled=false",
+            "addons": "https://raw.githubusercontent.com/tangsan55/IOS_Scripts/main/Scripts_Gallery/jqb.txt, tag=金钱豹CK, update-interval=86400, opt-parser=false, enabled=false",
+        },
+        
+        
+        {
+            "config": "15 12 * * * https://raw.githubusercontent.com/age174/-/main/yyxs.js, tag=阅友小说, img-url=https://s3.ax1x.com/2021/02/27/6pouiF.jpg, enabled=true",
+        }, {
+            "config": "0 0 0 1 1 * https://raw.githubusercontent.com/tangsan55/IOS_Scripts/main/Scripts_Gallery/yyxs_header.txt, img-url=https://s3.ax1x.com/2021/02/27/6pouiF.jpg, tag=阅友小说header, enabled=false",
+            "addons": "https://raw.githubusercontent.com/tangsan55/IOS_Scripts/main/Scripts_Gallery/yyxs_header.txt, tag=阅友小说header, update-interval=86400, opt-parser=false, enabled=false",
+        }, {
+            "config": "0 0 0 1 1 * https://raw.githubusercontent.com/tangsan55/IOS_Scripts/main/Scripts_Gallery/yyxs_body.txt, img-url=https://s3.ax1x.com/2021/02/27/6pouiF.jpg, tag=阅友小说body, enabled=false",
+            "addons": "https://raw.githubusercontent.com/tangsan55/IOS_Scripts/main/Scripts_Gallery/yyxs_body.txt, tag=阅友小说body, update-interval=86400, opt-parser=false, enabled=false",
+        },
+        
+        
+        {
+            "config": "15 12,14,16,20 * * * https://raw.githubusercontent.com/age174/-/main/dka.js, tag=蛋咖, img-url=https://s3.ax1x.com/2021/02/28/6C3Gpn.jpg, enabled=true",
+        }, {
+            "config": "0 0 0 1 1 * https://raw.githubusercontent.com/tangsan55/IOS_Scripts/main/Scripts_Gallery/dk.txt, img-url=https://s3.ax1x.com/2021/02/28/6C3Gpn.jpg, tag=蛋咖CK, enabled=false",
+            "addons": "https://raw.githubusercontent.com/tangsan55/IOS_Scripts/main/Scripts_Gallery/dk.txt, tag=蛋咖CK, update-interval=86400, opt-parser=false, enabled=false",
+        },
+        
+        
+        {
+            "config": "15 0 * * * https://raw.githubusercontent.com/age174/-/main/ddxq.js, tag=嘀嗒星球, img-url=https://raw.githubusercontent.com/erdongchanyo/icon/main/taskicon/Yunsaoma.png, enabled=true",
+        }, {
+            "config": "0 0 0 1 1 * https://raw.githubusercontent.com/tangsan55/IOS_Scripts/main/Scripts_Gallery/ddxq.txt, img-url=https://raw.githubusercontent.com/erdongchanyo/icon/main/taskicon/Yunsaoma.png, tag=嘀嗒星球CK, enabled=false",
+            "addons": "https://raw.githubusercontent.com/tangsan55/IOS_Scripts/main/Scripts_Gallery/ddxq.txt, tag=嘀嗒星球CK, update-interval=86400, opt-parser=false, enabled=false",
+        },
+        
+        
+        {
+            "config": "15 0,6,12,18, * * * https://raw.githubusercontent.com/age174/-/main/xsmm.js, tag=悬赏喵喵, img-url=https://raw.githubusercontent.com/erdongchanyo/icon/main/taskicon/Yunsaoma.png, enabled=true",
+        }, {
+            "config": "0 0 0 1 1 * https://raw.githubusercontent.com/tangsan55/IOS_Scripts/main/Scripts_Gallery/xsmm.txt, img-url=https://raw.githubusercontent.com/erdongchanyo/icon/main/taskicon/Yunsaoma.png, tag=悬赏喵喵CK, enabled=false",
+            "addons": "https://raw.githubusercontent.com/tangsan55/IOS_Scripts/main/Scripts_Gallery/xsmm.txt, tag=悬赏喵喵CK, update-interval=86400, opt-parser=false, enabled=false",
+        },
+        
+        
+        {
+            "config": "15 0,6,12,18, * * * https://raw.githubusercontent.com/age174/-/main/xyzd.js, tag=幸运赚点, img-url=https://ae01.alicdn.com/kf/U1680ecdfa17544669c71e00400c542e31.jpg, enabled=true",
+        }, {
+            "config": "0 0 0 1 1 * https://raw.githubusercontent.com/tangsan55/IOS_Scripts/main/Scripts_Gallery/xyzd.txt, img-url=https://ae01.alicdn.com/kf/U1680ecdfa17544669c71e00400c542e31.jpg, tag=幸运赚点CK, enabled=false",
+            "addons": "https://raw.githubusercontent.com/tangsan55/IOS_Scripts/main/Scripts_Gallery/xyzd.txt, tag=幸运赚点CK, update-interval=86400, opt-parser=false, enabled=false",
+        },
+        
+        
+        {
+            "config": "15 0,6,12,18, * * * https://raw.githubusercontent.com/age174/-/main/hldsp.js, tag=哈喽短视频, img-url=https://ae01.alicdn.com/kf/Uda8ecbbe50444fe293b538cbccf9d719q.jpg, enabled=true",
+        }, {
+            "config": "0 0 0 1 1 * https://raw.githubusercontent.com/tangsan55/IOS_Scripts/main/Scripts_Gallery/hldsp.txt, img-url=https://ae01.alicdn.com/kf/Uda8ecbbe50444fe293b538cbccf9d719q.jpg, tag=哈喽短视频CK, enabled=false",
+            "addons": "https://raw.githubusercontent.com/tangsan55/IOS_Scripts/main/Scripts_Gallery/hldsp.txt, tag=哈喽短视频CK, update-interval=86400, opt-parser=false, enabled=false",
+        },
+        
+        
+        {
+            "config": "*/10 * * * * https://raw.githubusercontent.com/age174/-/main/cfz.js, tag=春风转, img-url=https://ae01.alicdn.com/kf/U8a3a2572bf5d4584928d1d7cde52b50ba.jpg, enabled=true",
+        }, {
+            "config": "0 0 0 1 1 * https://raw.githubusercontent.com/tangsan55/IOS_Scripts/main/Scripts_Gallery/cfz.txt, img-url=https://ae01.alicdn.com/kf/U8a3a2572bf5d4584928d1d7cde52b50ba.jpg, tag=春风转CK, enabled=false",
+            "addons": "https://raw.githubusercontent.com/tangsan55/IOS_Scripts/main/Scripts_Gallery/cfz.txt, tag=春风转CK, update-interval=86400, opt-parser=false, enabled=false",
+        },
+        
+        
+        {
+            "config": "50 12,20 * * * https://raw.githubusercontent.com/age174/-/main/yggy.js, tag=阳光果园, img-url=https://ae01.alicdn.com/kf/Ubf3bd5e9c2414c18a96a3a2b20a9d2c5C.jpg, enabled=true",
+        }, {
+            "config": "0 0 0 1 1 * https://raw.githubusercontent.com/tangsan55/IOS_Scripts/main/Scripts_Gallery/yggy.txt, img-url=https://ae01.alicdn.com/kf/Ubf3bd5e9c2414c18a96a3a2b20a9d2c5C.jpg, tag=阳光果园CK, enabled=false",
+            "addons": "https://raw.githubusercontent.com/tangsan55/IOS_Scripts/main/Scripts_Gallery/yggy.txt, tag=阳光果园CK, update-interval=86400, opt-parser=false, enabled=false",
+        },
+        
+        
+        {
+            "config": "15 12,14,16,20,22 * * * https://raw.githubusercontent.com/age174/-/main/ysm.js, tag=云扫码, img-url=https://s3.ax1x.com/2021/02/28/6CRWb8.jpg, enabled=true",
+        }, {
+            "config": "0 0 0 1 1 * https://raw.githubusercontent.com/tangsan55/IOS_Scripts/main/Scripts_Gallery/ysm.txt, img-url=https://s3.ax1x.com/2021/02/28/6CRWb8.jpg, tag=云扫码CK, enabled=false",
+            "addons": "https://raw.githubusercontent.com/tangsan55/IOS_Scripts/main/Scripts_Gallery/ysm.txt, tag=云扫码CK, update-interval=86400, opt-parser=false, enabled=false",
+        },
+        
+        
+        {
+            "config": "5,35 9-22 * * * https://raw.githubusercontent.com/age174/-/main/wkzz.js, tag=微客众智, img-url=https://ae01.alicdn.com/kf/Uff0a0bb9e66a479591c9b02c176fd276A.jpg, enabled=true",
+        }, {
+            "config": "0 0 0 1 1 * https://raw.githubusercontent.com/tangsan55/IOS_Scripts/main/Scripts_Gallery/wkzz.txt, img-url=https://ae01.alicdn.com/kf/Uff0a0bb9e66a479591c9b02c176fd276A.jpg, tag=微客众智CK, enabled=false",
+            "addons": "https://raw.githubusercontent.com/tangsan55/IOS_Scripts/main/Scripts_Gallery/wkzz.txt, tag=微客众智CK, update-interval=86400, opt-parser=false, enabled=false",
+        },
+        
+        {
+            "config": "5,35 9-22 * * * https://raw.githubusercontent.com/age174/-/main/66yd.js, tag=66阅读, img-url=https://ae01.alicdn.com/kf/Uaade4566dd3744299956aa883f225386u.jpg, enabled=true",
+        }, {
+            "config": "0 0 0 1 1 * https://raw.githubusercontent.com/tangsan55/IOS_Scripts/main/Scripts_Gallery/66yd.txt, img-url=https://ae01.alicdn.com/kf/Uaade4566dd3744299956aa883f225386u.jpg, tag=66阅读CK, enabled=false",
+            "addons": "https://raw.githubusercontent.com/tangsan55/IOS_Scripts/main/Scripts_Gallery/66yd.txt, tag=66阅读CK, update-interval=86400, opt-parser=false, enabled=false",
+        },
+
+        {
+            "config": "30 * * * * https://raw.githubusercontent.com/CenBoMin/GithubSync/main/CONGHUA/chonghua.js, tag=葱花视频, enabled=true",
+        }, {
+            "config": "0 0 0 1 1 * https://raw.githubusercontent.com/tangsan55/IOS_Scripts/main/Scripts_Gallery/CONGHUA.txt, tag=葱花视频CK, enabled=false",
+            "addons": "https://raw.githubusercontent.com/tangsan55/IOS_Scripts/main/Scripts_Gallery/CONGHUA.txt, tag=葱花视频CK, update-interval=86400, opt-parser=false, enabled=false",
+        },
+        
+        
+        {
+            "config": "0 16,18,20 * * * https://raw.githubusercontent.com/CenBoMin/GithubSync/main/TXSTOCK/txstockqx.js, tag=腾讯自选股, enabled=true",
+        }, {
+            "config": "0,30 6 * * * https://raw.githubusercontent.com/CenBoMin/GithubSync/main/TXSTOCK/txstockcow.js, tag=腾讯长牛, enabled=true",
+        }, {
+            "config": "0 0 0 1 1 * https://raw.githubusercontent.com/tangsan55/IOS_Scripts/main/Scripts_Gallery/TXSTOCK-APP.txt, tag=腾讯自选股APP, enabled=false",
+            "addons": "https://raw.githubusercontent.com/tangsan55/IOS_Scripts/main/Scripts_Gallery/TXSTOCK-APP.txt, tag=腾讯自选股APP, update-interval=86400, opt-parser=false, enabled=false",
+        }, {
+            "config": "0 0 0 1 1 * https://raw.githubusercontent.com/tangsan55/IOS_Scripts/main/Scripts_Gallery/TXSTOCK-WX.txt, tag=腾讯自选股WX, enabled=false",
+            "addons": "https://raw.githubusercontent.com/tangsan55/IOS_Scripts/main/Scripts_Gallery/TXSTOCK-WX.txt, tag=腾讯自选股WX, update-interval=86400, opt-parser=false, enabled=false",
+        },
+        
+        {
+            "config": "*/5 0-8 * * * https://raw.githubusercontent.com/CenBoMin/GithubSync/main/WLAPP/wlapp.js, tag=文旅看点, enabled=true",
+        }, {
+            "config": "0 0 0 1 1 * https://raw.githubusercontent.com/tangsan55/IOS_Scripts/main/Scripts_Gallery/WLKD.txt, tag=文旅看点CK, enabled=false",
+            "addons": "https://raw.githubusercontent.com/tangsan55/IOS_Scripts/main/Scripts_Gallery/WLKD.txt, tag=文旅看点CK, update-interval=86400, opt-parser=false, enabled=false",
+        },
+        
+        {
+            "config": "0 0 * * * https://raw.githubusercontent.com/CenBoMin/GithubSync/main/RUNSTEP/cash.js, tag=走路赚钱提现, enabled=true",
+        }, {
+            "config": "*/15 * * * * https://raw.githubusercontent.com/CenBoMin/GithubSync/main/RUNSTEP/runstep.js, tag=走路赚钱, enabled=false",
+        }, {
+            "config": "0 0 0 1 1 * https://raw.githubusercontent.com/tangsan55/IOS_Scripts/main/Scripts_Gallery/RUNSTEP.txt, tag=走路赚钱CK, enabled=false",
+            "addons": "https://raw.githubusercontent.com/tangsan55/IOS_Scripts/main/Scripts_Gallery/RUNSTEP.txt, tag=走路赚钱CK, update-interval=86400, opt-parser=false, enabled=false",
+        },
+        
+        {
+            "config": "*/12 * * * * https://raw.githubusercontent.com/CenBoMin/GithubSync/main/DKDVIDEO/dkdvideo.js, tag=多看点, enabled=true",
+        }, {
+            "config": "0 0 0 1 1 * https://raw.githubusercontent.com/tangsan55/IOS_Scripts/main/Scripts_Gallery/DKDVIDEO.txt, tag=多看点CK, enabled=false",
+            "addons": "https://raw.githubusercontent.com/tangsan55/IOS_Scripts/main/Scripts_Gallery/DKDVIDEO.txt, tag=多看点CK, update-interval=86400, opt-parser=false, enabled=false",
+        },
+        
+        {
+            "config": "*/4 * * * * https://raw.githubusercontent.com/CenBoMin/GithubSync/main/SHUQI/shuqi.js, tag=书旗小说, enabled=true",
+        }, {
+            "config": "0 0 0 1 1 * https://raw.githubusercontent.com/tangsan55/IOS_Scripts/main/Scripts_Gallery/SHUQI-CK.txt, tag=书旗小说CK, enabled=false",
+            "addons": "https://raw.githubusercontent.com/tangsan55/IOS_Scripts/main/Scripts_Gallery/SHUQI-CK.txt, tag=书旗小说CK, update-interval=86400, opt-parser=false, enabled=false",
+        },{
+            "config": "0 0 0 1 1 * https://raw.githubusercontent.com/tangsan55/IOS_Scripts/main/Scripts_Gallery/SHUQI-lottery.txt, tag=书旗小说福利抽奖, enabled=false",
+            "addons": "https://raw.githubusercontent.com/tangsan55/IOS_Scripts/main/Scripts_Gallery/SHUQI-lottery.txt, tag=书旗小说福利抽奖, update-interval=86400, opt-parser=false, enabled=false",
+        },
+        
+        {
+            "config": "*/6 * * * * https://raw.githubusercontent.com/CenBoMin/GithubSync/main/SHUQI/shuqireadtime.js, tag=书旗小说极速版, enabled=true",
+        }, {
+            "config": "0 0 0 1 1 * https://raw.githubusercontent.com/tangsan55/IOS_Scripts/main/Scripts_Gallery/SHUQI-SP-CK.txt, tag=书旗小说极速版CK, enabled=false",
+            "addons": "https://raw.githubusercontent.com/tangsan55/IOS_Scripts/main/Scripts_Gallery/SHUQI-SP-CK.txt, tag=书旗小说极速版CK, update-interval=86400, opt-parser=false, enabled=false",
+        },{
+            "config": "0 0 0 1 1 * https://raw.githubusercontent.com/tangsan55/IOS_Scripts/main/Scripts_Gallery/SHUQI-SP-TIME.txt, tag=书旗小说极速版刷时长, enabled=false",
+            "addons": "https://raw.githubusercontent.com/tangsan55/IOS_Scripts/main/Scripts_Gallery/SHUQI-SP-TIME.txt, tag=书旗小说极速版刷时长, update-interval=86400, opt-parser=false, enabled=false",
+        },
+        
+        {
+            "config": "0 0 * * * https://raw.githubusercontent.com/wuzhi01/MyActions/main/jx_cfdtx.js, tag=京喜财富岛提现, img-url=https://raw.githubusercontent.com/ChuheGit/1/main/QuantumultX/Gallery/API-Icon/jx_cfd_exchange.png, enabled=true",
+        }
+        
+    ],
+}

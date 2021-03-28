@@ -1,0 +1,8 @@
+hostname= *.reader.yueyouxs.com
+
+#阅友小说 ---> *.reader.yueyouxs.com
+
+#5,禁用阅友小说header，开启阅友小说body
+#6,点击福利界面，点击看视频奖励，观看一个视频获取数据
+#阅友小说body
+http.*://.*.reader.yueyouxs.com/ url script-request-body https://raw.githubusercontent.com/age174/-/main/yyxs.js

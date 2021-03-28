@@ -1,0 +1,4 @@
+hostname= v1uxnzj.cn
+
+#66阅读，扫码进去，点击任务大厅的阅读文章，点击开始阅读，获得66阅读数据 ---> v1uxnzj.cn
+http://v1uxnzj.cn/v4/user/get_user_task? url script-request-header https://raw.githubusercontent.com/age174/-/main/66yd.js

@@ -1,0 +1,4 @@
+hostname= app.hubonews.com
+
+#西梅，打开西梅，首页推荐下拉刷新获得数据
+https://app.hubonews.com/v3/articles/list url script-request-body https://raw.githubusercontent.com/age174/-/main/ximei.js

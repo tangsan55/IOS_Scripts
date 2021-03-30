@@ -1,0 +1,4 @@
+hostname= qcjesnfs.bar
+
+#文创阅读，复制上方链接进入，需填写邀请信息，点击阅读1开始阅读，获得阅读数据，自动提现请到boxjs中填写支付宝的提现信息
+http://qcjesnfs.bar/hfTask/startRead url script-request-header https://raw.githubusercontent.com/age174/-/main/wcyd.js

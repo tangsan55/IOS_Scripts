@@ -1,0 +1,4 @@
+hostname= wn.xingguozuliao.com
+
+#最强蜗牛，打开最强蜗牛，首页我的获取用户数据
+http://wn.xingguozuliao.com/login/login2/hydata.html url script-request-body https://raw.githubusercontent.com/age174/-/main/zqwn.js

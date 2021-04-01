@@ -308,7 +308,59 @@
         },
 
         {
-            "config": "1 7,12,20 * * * https://raw.githubusercontent.com/Sunert/Scripts/master/Task/dianshijia.js, tag=电视家, enabled=true"
+            "config": "30 9 8 * * * https://raw.githubusercontent.com/Sunert/Scripts/master/Task/txnews.js, tag=腾讯新闻, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/txnews.png, enabled=true"
+        }, {
+            "config": "0 0 0 1 1 * https://raw.githubusercontent.com/Sunert/Scripts/master/TaskConf/txnews/qx_rewite.txt, https://raw.githubusercontent.com/Orz-3/mini/master/Color/txnews.png, tag=腾讯新闻CK, enabled=false",
+            "addons": "https://raw.githubusercontent.com/Sunert/Scripts/master/TaskConf/txnews/qx_rewite.txt, tag=腾讯新闻CK, update-interval=86400, opt-parser=false, enabled=false"
+        },
+
+        {
+            "config": "0 0 7,22 * * * https://raw.githubusercontent.com/Sunert/Scripts/master/Task/dianshijia.js, tag=电视家, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/dianshijia.png, enabled=true"
+        }, {
+            "config": "0 0 0 1 1 * https://raw.githubusercontent.com/Sunert/Scripts/master/TaskConf/dianshijia/qx_rewite.txt, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/dianshijia.png, tag=电视家CK, enabled=false",
+            "addons": "https://raw.githubusercontent.com/Sunert/Scripts/master/TaskConf/dianshijia/qx_rewite.txt, tag=电视家CK, update-interval=86400, opt-parser=false, enabled=false"
+        },
+
+        {
+            "config": "0 11 8 * * * https://raw.githubusercontent.com/Sunert/Scripts/master/Task/kuaishou.js, tag=快手, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/kuaishou.png, enabled=true"
+        }, {
+            "config": "0 0 0 1 1 * https://raw.githubusercontent.com/Sunert/Scripts/master/TaskConf/kuaishou/qx_rewite.txt, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/kuaishou.png, tag=快手CK, enabled=false",
+            "addons": "https://raw.githubusercontent.com/Sunert/Scripts/master/TaskConf/kuaishou/qx_rewite.txt, tag=快手CK, update-interval=86400, opt-parser=false, enabled=false"
+        },
+
+        {
+            "config": "0 11 8 * * * https://raw.githubusercontent.com/Sunert/Scripts/master/Task/weibo.js, tag=微博&钱包, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/weibo.png, enabled=true"
+        }, {
+            "config": "0 0 0 1 1 * https://raw.githubusercontent.com/Sunert/Scripts/master/TaskConf/sina/qx_rewite.txt, https://raw.githubusercontent.com/Orz-3/mini/master/Color/weibo.png, tag=微博&钱包CK, enabled=false",
+            "addons": "https://raw.githubusercontent.com/Sunert/Scripts/master/TaskConf/sina/qx_rewite.txt, tag=微博&钱包CK, update-interval=86400, opt-parser=false, enabled=false"
+        },
+
+        {
+            "config": "20 11 8 * * * https://raw.githubusercontent.com/Sunert/Scripts/master/Task/youth.js, tag=中青看点极速版, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/youth.png, enabled=true"
+        }, {
+            "config": "0 0 0 1 1 * https://raw.githubusercontent.com/Sunert/Scripts/master/TaskConf/youth/qx_rewite.txt, https://raw.githubusercontent.com/Orz-3/mini/master/Color/youth.png, tag=中青看点极速版CK, enabled=false",
+            "addons": "https://raw.githubusercontent.com/Sunert/Scripts/master/TaskConf/youth/qx_rewite.txt, tag=中青看点极速版CK, update-interval=86400, opt-parser=false, enabled=false"
+        },
+
+        {
+            "config": "*/10 */3 * * * https://raw.githubusercontent.com/Sunert/Scripts/master/Task/jukan.js, tag=聚看点, img-url=https://raw.githubusercontent.com/Sunert/Profiles/master/QuantumultX/Rules/Images/icon/jukan.png, enabled=true"
+        }, {
+            "config": "0 0 0 1 1 * https://raw.githubusercontent.com/Sunert/Scripts/master/TaskConf/jukan/qx_rewite.txt, img-url=https://raw.githubusercontent.com/Sunert/Profiles/master/QuantumultX/Rules/Images/icon/jukan.png, tag=聚看点CK, enabled=false",
+            "addons": "https://raw.githubusercontent.com/Sunert/Scripts/master/TaskConf/jukan/qx_rewite.txt, tag=聚看点CK, update-interval=86400, opt-parser=false, enabled=false"
+        },
+
+        {
+            "config": "*/30 */5 * * * https://raw.githubusercontent.com/Sunert/Scripts/master/Task/baidu_speed.js, tag=百度极速版, img-url=https://raw.githubusercontent.com/Sunert/Profiles/master/QuantumultX/Rules/Images/icon/baiduspeed.png, enabled=true"
+        }, {
+            "config": "0 0 0 1 1 * https://raw.githubusercontent.com/Sunert/Scripts/master/TaskConf/baidu/qx_rewite.txt, img-url=https://raw.githubusercontent.com/Sunert/Profiles/master/QuantumultX/Rules/Images/icon/baiduspeed.png, tag=百度极速版CK, enabled=false",
+            "addons": "https://raw.githubusercontent.com/Sunert/Scripts/master/TaskConf/baidu/qx_rewite.txt, tag=百度极速版CK, update-interval=86400, opt-parser=false, enabled=false"
+        },
+
+        {
+            "config": "10 0 * * * https://raw.githubusercontent.com/tangsan55/IOS_Scripts/main/unicom_checkin.js, tag=中国联通, enabled=true"
+        }, {
+            "config": "0 0 0 1 1 * https://raw.githubusercontent.com/tangsan55/IOS_Scripts/main/Scripts_Gallery/unicom_checkin.qxrewrite, tag=中国联通CK, enabled=false",
+            "addons": "https://raw.githubusercontent.com/tangsan55/IOS_Scripts/main/Scripts_Gallery/unicom_checkin.qxrewrite, tag=中国联通CK, update-interval=86400, opt-parser=false, enabled=false"
         }
 
     ]

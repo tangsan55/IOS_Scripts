@@ -189,7 +189,7 @@
         },
 
         {
-            "config": "5 9-22 * * * https://raw.githubusercontent.com/age174/-/main/wcyd.js, tag=文创阅读, img-url=https://ae01.alicdn.com/kf/Ua6bd9417d492473f8ca0c3110b2176307.jpg, enabled=true"
+            "config": "0-59 9-22 * * * https://raw.githubusercontent.com/age174/-/main/wcyd.js, tag=文创阅读, img-url=https://ae01.alicdn.com/kf/Ua6bd9417d492473f8ca0c3110b2176307.jpg, enabled=true"
         }, {
             "config": "0 0 0 1 1 * https://raw.githubusercontent.com/tangsan55/IOS_Scripts/main/Scripts_Gallery/wcyd.txt, img-url=https://ae01.alicdn.com/kf/Ua6bd9417d492473f8ca0c3110b2176307.jpg, tag=文创阅读CK, enabled=false",
             "addons": "https://raw.githubusercontent.com/tangsan55/IOS_Scripts/main/Scripts_Gallery/wcyd.txt, tag=文创阅读CK, update-interval=86400, opt-parser=false, enabled=false"

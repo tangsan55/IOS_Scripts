@@ -154,7 +154,7 @@
         },
         
         {
-            "config": "50 12,20 * * * https://raw.githubusercontent.com/age174/-/main/yggy.js, tag=阳光果园, img-url=https://ae01.alicdn.com/kf/Ubf3bd5e9c2414c18a96a3a2b20a9d2c5C.jpg, enabled=true"
+            "config": "0 */1 * * * https://raw.githubusercontent.com/age174/-/main/yggy.js, tag=阳光果园, img-url=https://ae01.alicdn.com/kf/Ubf3bd5e9c2414c18a96a3a2b20a9d2c5C.jpg, enabled=true"
         }, {
             "config": "0 0 0 1 1 * https://raw.githubusercontent.com/tangsan55/IOS_Scripts/main/Scripts_Gallery/yggy.txt, img-url=https://ae01.alicdn.com/kf/Ubf3bd5e9c2414c18a96a3a2b20a9d2c5C.jpg, tag=阳光果园CK, enabled=false",
             "addons": "https://raw.githubusercontent.com/tangsan55/IOS_Scripts/main/Scripts_Gallery/yggy.txt, tag=阳光果园CK, update-interval=86400, opt-parser=false, enabled=false"

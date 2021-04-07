@@ -154,7 +154,7 @@
         },
         
         {
-            "config": "0 */1 * * * https://raw.githubusercontent.com/age174/-/main/yggy.js, tag=阳光果园, img-url=https://ae01.alicdn.com/kf/Ubf3bd5e9c2414c18a96a3a2b20a9d2c5C.jpg, enabled=true"
+            "config": "50 12,20 * * * https://raw.githubusercontent.com/age174/-/main/yggy.js, tag=阳光果园, img-url=https://ae01.alicdn.com/kf/Ubf3bd5e9c2414c18a96a3a2b20a9d2c5C.jpg, enabled=true"
         }, {
             "config": "0 0 0 1 1 * https://raw.githubusercontent.com/tangsan55/IOS_Scripts/main/Scripts_Gallery/yggy.txt, img-url=https://ae01.alicdn.com/kf/Ubf3bd5e9c2414c18a96a3a2b20a9d2c5C.jpg, tag=阳光果园CK, enabled=false",
             "addons": "https://raw.githubusercontent.com/tangsan55/IOS_Scripts/main/Scripts_Gallery/yggy.txt, tag=阳光果园CK, update-interval=86400, opt-parser=false, enabled=false"
@@ -189,7 +189,7 @@
         },
 
         {
-            "config": "0-59 9-22 * * * https://raw.githubusercontent.com/age174/-/main/wcyd.js, tag=文创阅读, img-url=https://ae01.alicdn.com/kf/Ua6bd9417d492473f8ca0c3110b2176307.jpg, enabled=true"
+            "config": "5 9-22 * * * https://raw.githubusercontent.com/age174/-/main/wcyd.js, tag=文创阅读, img-url=https://ae01.alicdn.com/kf/Ua6bd9417d492473f8ca0c3110b2176307.jpg, enabled=true"
         }, {
             "config": "0 0 0 1 1 * https://raw.githubusercontent.com/tangsan55/IOS_Scripts/main/Scripts_Gallery/wcyd.txt, img-url=https://ae01.alicdn.com/kf/Ua6bd9417d492473f8ca0c3110b2176307.jpg, tag=文创阅读CK, enabled=false",
             "addons": "https://raw.githubusercontent.com/tangsan55/IOS_Scripts/main/Scripts_Gallery/wcyd.txt, tag=文创阅读CK, update-interval=86400, opt-parser=false, enabled=false"
@@ -331,14 +331,14 @@
         {
             "config": "0 11 8 * * * https://raw.githubusercontent.com/Sunert/Scripts/master/Task/weibo.js, tag=微博&钱包, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/weibo.png, enabled=true"
         }, {
-            "config": "0 0 0 1 1 * https://raw.githubusercontent.com/Sunert/Scripts/master/TaskConf/sina/qx_rewite.txt, https://raw.githubusercontent.com/Orz-3/mini/master/Color/weibo.png, tag=微博&钱包CK, enabled=false",
+            "config": "0 0 0 1 1 * https://raw.githubusercontent.com/Sunert/Scripts/master/TaskConf/sina/qx_rewite.txt, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/weibo.png, tag=微博&钱包CK, enabled=false",
             "addons": "https://raw.githubusercontent.com/Sunert/Scripts/master/TaskConf/sina/qx_rewite.txt, tag=微博&钱包CK, update-interval=86400, opt-parser=false, enabled=false"
         },
 
         {
             "config": "20 11 8 * * * https://raw.githubusercontent.com/Sunert/Scripts/master/Task/youth.js, tag=中青看点极速版, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/youth.png, enabled=true"
         }, {
-            "config": "0 0 0 1 1 * https://raw.githubusercontent.com/Sunert/Scripts/master/TaskConf/youth/qx_rewite.txt, https://raw.githubusercontent.com/Orz-3/mini/master/Color/youth.png, tag=中青看点极速版CK, enabled=false",
+            "config": "0 0 0 1 1 * https://raw.githubusercontent.com/Sunert/Scripts/master/TaskConf/youth/qx_rewite.txt, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/youth.png, tag=中青看点极速版CK, enabled=false",
             "addons": "https://raw.githubusercontent.com/Sunert/Scripts/master/TaskConf/youth/qx_rewite.txt, tag=中青看点极速版CK, update-interval=86400, opt-parser=false, enabled=false"
         },
 
@@ -361,6 +361,20 @@
         }, {
             "config": "0 0 0 1 1 * https://raw.githubusercontent.com/tangsan55/IOS_Scripts/main/Scripts_Gallery/unicom_checkin.qxrewrite, tag=中国联通CK, enabled=false",
             "addons": "https://raw.githubusercontent.com/tangsan55/IOS_Scripts/main/Scripts_Gallery/unicom_checkin.qxrewrite, tag=中国联通CK, update-interval=86400, opt-parser=false, enabled=false"
+        },
+
+        {
+            "config": "10 9-22 * * * https://raw.githubusercontent.com/age174/-/main/wcxcx.js, tag=文创阅读小程序, img-url=https://ae01.alicdn.com/kf/Ua6bd9417d492473f8ca0c3110b2176307.jpg, enabled=true"
+        }, {
+            "config": "0 0 0 1 1 * https://raw.githubusercontent.com/tangsan55/IOS_Scripts/main/Scripts_Gallery/wcyd_wx.txt, tag=文创阅读小程序CK, enabled=false",
+            "addons": "https://raw.githubusercontent.com/tangsan55/IOS_Scripts/main/Scripts_Gallery/wcyd_wx.txt, tag=文创阅读小程序CK, update-interval=86400, opt-parser=false, enabled=false"
+        },
+
+        {
+            "config": "15 9, * * * https://raw.githubusercontent.com/age174/-/main/vsh.js, tag=V生活, img-url=https://ae01.alicdn.com/kf/Uf0da879c7acd4c7bad91f0e5a97667e1O.jpg, enabled=true"
+        }, {
+            "config": "0 0 0 1 1 * https://raw.githubusercontent.com/tangsan55/IOS_Scripts/main/Scripts_Gallery/vsh.txt, img-url=https://ae01.alicdn.com/kf/Uf0da879c7acd4c7bad91f0e5a97667e1O.jpg, tag=V生活CK, enabled=false",
+            "addons": "https://raw.githubusercontent.com/tangsan55/IOS_Scripts/main/Scripts_Gallery/vsh.txt, tag=V生活CK, update-interval=86400, opt-parser=false, enabled=false"
         }
 
     ]

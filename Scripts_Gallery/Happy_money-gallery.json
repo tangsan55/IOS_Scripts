@@ -310,7 +310,7 @@
         {
             "config": "30 9 8 * * * https://raw.githubusercontent.com/Sunert/Scripts/master/Task/txnews.js, tag=腾讯新闻, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/txnews.png, enabled=true"
         }, {
-            "config": "0 0 0 1 1 * https://raw.githubusercontent.com/Sunert/Scripts/master/TaskConf/txnews/qx_rewite.txt, https://raw.githubusercontent.com/Orz-3/mini/master/Color/txnews.png, tag=腾讯新闻CK, enabled=false",
+            "config": "0 0 0 1 1 * https://raw.githubusercontent.com/Sunert/Scripts/master/TaskConf/txnews/qx_rewite.txt, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/txnews.png, tag=腾讯新闻CK, enabled=false",
             "addons": "https://raw.githubusercontent.com/Sunert/Scripts/master/TaskConf/txnews/qx_rewite.txt, tag=腾讯新闻CK, update-interval=86400, opt-parser=false, enabled=false"
         },
 

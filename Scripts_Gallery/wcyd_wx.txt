@@ -1,0 +1,4 @@
+hostname= yd.wcyd168.com
+
+#文创阅读小程序，进入文创阅读,点小程序阅读,进入小程序后获得数据
+^https://yd\.wcyd168\.com/hfTask/getUserByToken url script-request-body https://raw.githubusercontent.com/age174/-/main/wcxcx.js

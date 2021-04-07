@@ -371,7 +371,7 @@
         },
 
         {
-            "config": "15 9, * * * https://raw.githubusercontent.com/age174/-/main/vsh.js, tag=V生活, img-url=https://ae01.alicdn.com/kf/Uf0da879c7acd4c7bad91f0e5a97667e1O.jpg, enabled=true"
+            "config": "15 9-22 * * * https://raw.githubusercontent.com/age174/-/main/vsh.js, tag=V生活, img-url=https://ae01.alicdn.com/kf/Uf0da879c7acd4c7bad91f0e5a97667e1O.jpg, enabled=true"
         }, {
             "config": "0 0 0 1 1 * https://raw.githubusercontent.com/tangsan55/IOS_Scripts/main/Scripts_Gallery/vsh.txt, img-url=https://ae01.alicdn.com/kf/Uf0da879c7acd4c7bad91f0e5a97667e1O.jpg, tag=V生活CK, enabled=false",
             "addons": "https://raw.githubusercontent.com/tangsan55/IOS_Scripts/main/Scripts_Gallery/vsh.txt, tag=V生活CK, update-interval=86400, opt-parser=false, enabled=false"

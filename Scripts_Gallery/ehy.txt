@@ -1,0 +1,14 @@
+hostname= lebudaren.zhuangangbeng.com,api.zhuangangbeng.com
+#乐步达人使用方法:
+#1-点击中间赚赚,签到,获得签到数据
+#2-点击浏览静态广告,等完成获得静态广告数据
+#3-点击浏览视频广告,进入之后有五个视频任务，第一个不用点,看不了。从第二个视频任务开始依次点击观看视频,分别获得视频1.2.3.4的数据
+#钢镚赚使用方法:
+#1-点击右上角签到,获得签到数据。
+#2-点击任务5,进入视频广告任务界面,点击看广告任务,获得看广告数据
+#3-点击看视频任务,获得看视频任务数据。
+#4-运行脚本。跑完之后去手动领取每日任务奖励的25金币。获得领取数据
+#乐步达人
+https://lebudaren.zhuangangbeng.com/zlgainintegral url script-request-body https://raw.githubusercontent.com/age174/-/main/ehy.js
+#钢镚赚
+https://api.zhuangangbeng.com url script-request-body https://raw.githubusercontent.com/age174/-/main/ehy.js

@@ -88,7 +88,7 @@
         },
         
         {
-            "config": "0 12,14,16,18,19,20,22 * * * https://raw.githubusercontent.com/age174/-/main/fqkk.js, tag=番茄看看, img-url=https://ftp.bmp.ovh/imgs/2021/02/f8306006536eb49c.jpeg, enabled=true"
+            "config": "0 12-23 * * * https://raw.githubusercontent.com/age174/-/main/fqkk.js, tag=番茄看看, img-url=https://ftp.bmp.ovh/imgs/2021/02/f8306006536eb49c.jpeg, enabled=true"
         }, {
             "config": "0 0 0 1 1 * https://raw.githubusercontent.com/tangsan55/IOS_Scripts/main/Scripts_Gallery/fqkk.txt, img-url=https://ftp.bmp.ovh/imgs/2021/02/f8306006536eb49c.jpeg, tag=番茄看看CK, enabled=false",
             "addons": "https://raw.githubusercontent.com/tangsan55/IOS_Scripts/main/Scripts_Gallery/fqkk.txt, tag=番茄看看CK, update-interval=86400, opt-parser=false, enabled=false"
@@ -375,8 +375,39 @@
         }, {
             "config": "0 0 0 1 1 * https://raw.githubusercontent.com/tangsan55/IOS_Scripts/main/Scripts_Gallery/lhws.txt, img-url=https://ae01.alicdn.com/kf/U7f67ec3bd2d848a59d72a1807dc9e324r.jpg, tag=落花无生CK, enabled=false",
             "addons": "https://raw.githubusercontent.com/tangsan55/IOS_Scripts/main/Scripts_Gallery/lhws.txt, tag=落花无生CK, update-interval=86400, opt-parser=false, enabled=false"
+        },
+
+        {
+            "config": "0 9 * * * https://raw.githubusercontent.com/age174/-/main/ehy.js, tag=钢镚赚乐步达人二合一, img-url=https://ae01.alicdn.com/kf/Ua59aa6c4f1784bfc9a0f126a3d8b3fc6V.jpg, enabled=true"
+        }, {
+            "config": "0 0 0 1 1 * https://raw.githubusercontent.com/tangsan55/IOS_Scripts/main/Scripts_Gallery/ehy.txt, img-url=https://ae01.alicdn.com/kf/Ua59aa6c4f1784bfc9a0f126a3d8b3fc6V.jpg, tag=钢镚赚乐步达人二合一CK, enabled=false",
+            "addons": "https://raw.githubusercontent.com/tangsan55/IOS_Scripts/main/Scripts_Gallery/ehy.txt, tag=钢镚赚乐步达人二合一CK, update-interval=86400, opt-parser=false, enabled=false"
+        },
+
+        {
+            "config": "0 0 1 1 * https://raw.githubusercontent.com/age174/-/main/mmdzz.js, tag=萌喵大作战无限刷, img-url=https://ae01.alicdn.com/kf/U13a7be18e87942118e4402e22652fd70H.jpg, enabled=true"
+        }, {
+            "config": "0 0 0 1 1 * https://raw.githubusercontent.com/tangsan55/IOS_Scripts/main/Scripts_Gallery/mmdzz.txt, img-url=https://ae01.alicdn.com/kf/U13a7be18e87942118e4402e22652fd70H.jpg, tag=萌喵大作战无限刷CK, enabled=false",
+            "addons": "https://raw.githubusercontent.com/tangsan55/IOS_Scripts/main/Scripts_Gallery/mmdzz.txt, tag=萌喵大作战无限刷CK, update-interval=86400, opt-parser=false, enabled=false"
+        },
+
+        {
+            "config": "1 0 * * * https://raw.githubusercontent.com/age174/-/main/blnc.js, tag=部落农场, img-url=https://ae01.alicdn.com/kf/U7bcabce8ea7644f18e3c84f65907e34bf.jpg, enabled=true"
+        }, {
+            "config": "0 0 0 1 1 * https://raw.githubusercontent.com/tangsan55/IOS_Scripts/main/Scripts_Gallery/blnc.txt, img-url=https://ae01.alicdn.com/kf/U7bcabce8ea7644f18e3c84f65907e34bf.jp, tag=部落农场CK, enabled=false",
+            "addons": "https://raw.githubusercontent.com/tangsan55/IOS_Scripts/main/Scripts_Gallery/blnc.txt, tag=部落农场CK, update-interval=86400, opt-parser=false, enabled=false"
+        },
+
+        {
+            "config": "35 9-22 * * * https://raw.githubusercontent.com/age174/-/main/qhyd.js, tag=千禾阅读, img-url=https://ae01.alicdn.com/kf/U413ab7460abb4a28b11deac3c5034243N.jpg, enabled=true"
+        }, {
+            "config": "0 0 0 1 1 * https://raw.githubusercontent.com/tangsan55/IOS_Scripts/main/Scripts_Gallery/qhyd_info.txt, img-url=https://ae01.alicdn.com/kf/U413ab7460abb4a28b11deac3c5034243N.jpg, tag=千禾阅读个人信息CK, enabled=false",
+            "addons": "https://raw.githubusercontent.com/tangsan55/IOS_Scripts/main/Scripts_Gallery/qhyd_info.txt, tag=千禾阅读个人信息CK, update-interval=86400, opt-parser=false, enabled=false"
+        }, {
+            "config": "0 0 0 1 1 * https://raw.githubusercontent.com/tangsan55/IOS_Scripts/main/Scripts_Gallery/qhyd_task.txt, img-url=https://ae01.alicdn.com/kf/U413ab7460abb4a28b11deac3c5034243N.jpg, tag=千禾阅读任务CK, enabled=false",
+            "addons": "https://raw.githubusercontent.com/tangsan55/IOS_Scripts/main/Scripts_Gallery/qhyd_task.txt, tag=千禾阅读任务CK, update-interval=86400, opt-parser=false, enabled=false"
         }
-       
+      
 
     ]
 }

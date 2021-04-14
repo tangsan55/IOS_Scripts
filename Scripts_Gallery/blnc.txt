@@ -1,0 +1,4 @@
+hostname= farming.blnc888.com
+
+#部落农场,登录部落农场获得数据，点击土地浇水,除草,除虫,收果都可以获得几号土地的数据
+https://farming.blnc888.com/game.api url script-request-body https://raw.githubusercontent.com/age174/-/main/blnc.js

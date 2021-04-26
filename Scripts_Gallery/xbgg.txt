@@ -1,0 +1,4 @@
+hostname= miaogouguanggaotest.haimiaogou.com
+
+#讯播广告,扫码打开注册，用浏览器打开，找到商城首页,看广告领收益,然后去广告列表随便点击一个任务，完成任务获得数据
+https://miaogouguanggaotest.haimiaogou.com/api/Order/add url script-request-header https://raw.githubusercontent.com/age174/-/main/xbgg.js

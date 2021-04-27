@@ -413,8 +413,29 @@
         }, {
             "config": "0 0 0 1 1 * https://raw.githubusercontent.com/tangsan55/IOS_Scripts/main/Scripts_Gallery/zzsy.txt, img-url=https://ae01.alicdn.com/kf/Ub0056a0721e94c9a85a8bbeb2f2aed6fn.jpg, tag=招招试药CK, enabled=false",
             "addons": "https://raw.githubusercontent.com/tangsan55/IOS_Scripts/main/Scripts_Gallery/zzsy.txt, tag=招招试药CK, update-interval=86400, opt-parser=false, enabled=false"
+        },
+
+        {
+            "config": "35 12,18 * * * https://raw.githubusercontent.com/age174/-/main/xbgg.js, tag=讯播广告, img-url=https://ae01.alicdn.com/kf/U466ffce93b584c5babd1127f32f5ddebX.jpg, enabled=true"
+        }, {
+            "config": "0 0 0 1 1 * https://raw.githubusercontent.com/tangsan55/IOS_Scripts/main/Scripts_Gallery/xbgg.txt, img-url=https://ae01.alicdn.com/kf/U466ffce93b584c5babd1127f32f5ddebX.jpg, tag=讯播广告CK, enabled=false",
+            "addons": "https://raw.githubusercontent.com/tangsan55/IOS_Scripts/main/Scripts_Gallery/xbgg.txt, tag=讯播广告CK, update-interval=86400, opt-parser=false, enabled=false"
+        },
+
+        {
+            "config": "35 12,18 * * * https://raw.githubusercontent.com/Ariszy/Private-Script/master/Scripts/klcg.js, tag=快乐猜歌, enabled=true"
+        }, {
+            "config": "0 0 0 1 1 * https://raw.githubusercontent.com/tangsan55/IOS_Scripts/main/Scripts_Gallery/klcg.txt, tag=快乐猜歌CK, enabled=false",
+            "addons": "https://raw.githubusercontent.com/tangsan55/IOS_Scripts/main/Scripts_Gallery/klcg.txt, tag=快乐猜歌CK, update-interval=86400, opt-parser=false, enabled=false"
+        },
+
+        {
+            "config": "10 0 * * * https://raw.githubusercontent.com/age174/-/main/bsly.js, tag=百事乐元, img-url=https://ae01.alicdn.com/kf/U2fec2be787b74fb3928d83773822eef56.jpg, enabled=true"
+        }, {
+            "config": "0 0 0 1 1 * https://raw.githubusercontent.com/tangsan55/IOS_Scripts/main/Scripts_Gallery/bsly.txt, img-url=https://ae01.alicdn.com/kf/U2fec2be787b74fb3928d83773822eef56.jpg, tag=百事乐元CK, enabled=false",
+            "addons": "https://raw.githubusercontent.com/tangsan55/IOS_Scripts/main/Scripts_Gallery/bsly.txt, tag=百事乐元CK, update-interval=86400, opt-parser=false, enabled=false"
         }
-      
+
 
     ]
 }

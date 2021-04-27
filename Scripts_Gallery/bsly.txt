@@ -1,0 +1,4 @@
+hostname= pepcoin.pepsico.com.cn
+
+#百事乐元,码进入主页授权即可获取数据
+https://pepcoin.pepsico.com.cn/api/wxapp/doGetUserInfo url script-request-body https://raw.githubusercontent.com/age174/-/main/bsly.js

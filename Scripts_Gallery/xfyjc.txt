@@ -1,0 +1,4 @@
+hostname= bp-api.coohua.com
+
+#幸福养鸡场,进入游戏看一个气泡视频获取数据
+https://bp-api.coohua.com/bubuduo-xfyjc/game/bubble/reward? url script-request-header https://raw.githubusercontent.com/age174/-/main/xfyjc.js

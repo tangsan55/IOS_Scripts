@@ -1,0 +1,4 @@
+hostname= bp-api.coohua.com
+
+#先玩两分钟解锁所有土地，然后脚本就可以了，种植一棵花获取ck，每天完成一个订单，第二天手动提现后，开始第二天的订单
+https://bp-api.coohua.com/bubuduo-kxhy/game/plant url script-request-header https://raw.githubusercontent.com/Ariszy/Private-Script/master/Scripts/kxhy.js

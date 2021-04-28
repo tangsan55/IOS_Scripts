@@ -1,0 +1,5 @@
+hostname= 
+
+#1-扫码之后点击提现获得提现数据。2-点击阅读获得阅读数据
+http://m.*.top/read_channel/do_read&pageshow url script-request-header https://raw.githubusercontent.com/age174/-/main/jlkk.js
+http://h5.qdwlfn.bar/withdrawal/submit_withdraw url script-request-header https://raw.githubusercontent.com/age174/-/main/jlkk.js
